@@ -1,3 +1,11 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+    
+    <div style="text-align:center">
+      <h1>Sudah Makan Menu</h1>
+    <div style="text-align:left"*ngIf="router.url !=='/home'"  >
+      <button routerLink="/home" routerLinkActive="active" >Back</button>
+      </div>
+      
+      <router-outlet ></router-outlet></div>
+  
 </ion-app>

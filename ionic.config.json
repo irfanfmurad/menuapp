@@ -1,5 +1,7 @@
 {
   "name": "dahmakan",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
